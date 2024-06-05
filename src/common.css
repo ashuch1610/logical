@@ -1,0 +1,61 @@
+.border 
+{
+    border: 30px;
+}
+
+
+
+
+    .last-line-left {
+        text-align-last: left;
+      }
+
+      .navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        overflow: hidden;
+      }
+      
+      .navbar li {
+        float: left;
+      }
+      
+      .navbar li a {
+        display: block;
+        color: orange;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      /* Hover effect */
+      .navbar li a:hover {
+        background-color: #e17816;
+      }
+
+
+      .card {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 20px;
+        transition: box-shadow 0.3s ease; /* Add transition for smooth effect */
+      }
+      
+      .card:hover {
+        box-shadow: 0 0 10px rgba(229, 97, 97, 0.1); /* Add hover effect */
+        background-color: #e17816;
+      }
+
+      .btn-ser{
+          border-color: #e17816;
+
+      }
+
+      .btn-ser:hover {
+        background-color: #e17816;
+      }
+      
+      
+      
